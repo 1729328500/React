@@ -1,0 +1,107 @@
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+a {
+  text-decoration: none;
+  color: #62a3ea;
+  font-size: 20px;
+  margin: 20px;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #62a3ea;
+  color: #fff;
+}
+
+.link {
+  text-decoration: none;
+  color: #62a3ea;
+  font-size: 20px;
+  margin: 20px;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.active-link {
+  background-color: #62a3ea;
+  color: #fff;
+}
+
+.vertical-nav {
+  display: flex;
+  flex-direction: column; /* 竖直排列 */
+  align-items: center; /* 水平居中 */
+  gap: 10px; /* 链接之间的间距 */
+}
+
+.vertical-nav a {
+  margin: 0; /* 移除默认的 margin */
+}
+
+.profile-container {
+  display: flex;
+  justify-content: space-between; /* 水平分布 */
+  align-items: center; /* 垂直居中 */
+}
+
+.data-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
