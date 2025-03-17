@@ -41,3 +41,4 @@ const AppRoutes = () => {
 };
 
 export default AppRoutes;
+<Link to="/about?name=John&age=30">Go to About with Query Params</Link>
