@@ -1,0 +1,33 @@
+.vibration-page {
+  padding: 20px;
+
+  .section {
+    margin-bottom: 20px;
+
+    .section-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 15px;
+      color: #333;
+    }
+
+    .section-content {
+      .at-button {
+        margin-bottom: 20px;
+      }
+
+      .result-box {
+        padding: 15px;
+        background-color: #f8f8f8;
+        border-radius: 8px;
+        margin-bottom: 20px;
+
+        .result-text {
+          font-size: 16px;
+          color: #333;
+          word-break: break-all;
+        }
+      }
+    }
+  }
+}

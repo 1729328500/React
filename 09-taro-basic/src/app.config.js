@@ -1,4 +1,9 @@
 export default defineAppConfig({
+  permission: {
+    "scope.userLocation": {
+      desc: "你的位置信息将用于小程序位置接口的效果展示",
+    },
+  },
   pages: [
     "pages/index/index",
     "pages/discover/index",
@@ -8,6 +13,27 @@ export default defineAppConfig({
     "pages/card/index",
     "pages/note/index",
     "pages/music/index",
+    "pages/skyline/index",
+    "pages/components/index",
+    "pages/api/index",
+    "pages/media/index",
+    "pages/container/index",
+    "pages/basic/index",
+    "pages/location/index",
+    "pages/device/index",
+    "pages/form/index",
+    "pages/map/index",
+    "pages/contact/index",
+    "pages/scrollView/index",
+    "pages/movable/index",
+    "pages/webView/index",
+    "pages/capture/index",
+    "pages/bluetooth/index",
+    "pages/wifi/index",
+    "pages/clipboard/index",
+    "pages/vibration/index",
+    "pages/scancode/index",
+    "pages/battery/index",
   ],
   window: {
     backgroundTextStyle: "light",
@@ -32,6 +58,18 @@ export default defineAppConfig({
         text: "发现",
         iconPath: "./assets/tabs/discover.png",
         selectedIconPath: "./assets/tabs/discover-active.png",
+      },
+      {
+        pagePath: "pages/components/index",
+        text: "组件",
+        iconPath: "./assets/tabs/component.png",
+        selectedIconPath: "./assets/tabs/component-active.png",
+      },
+      {
+        pagePath: "pages/api/index",
+        text: "Api",
+        iconPath: "./assets/tabs/API.png",
+        selectedIconPath: "./assets/tabs/API-active.png",
       },
       {
         pagePath: "pages/profile/index",

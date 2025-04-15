@@ -1,0 +1,27 @@
+.capture-page {
+  padding: 20px;
+
+  .section {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+
+    .section-title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 16px;
+    }
+
+    .section-content {
+      .at-button {
+        margin-bottom: 16px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

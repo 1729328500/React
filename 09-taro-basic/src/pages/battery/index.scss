@@ -1,0 +1,44 @@
+.battery-page {
+  padding: 20px;
+
+  .section {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    .section-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .section-content {
+      .battery-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+
+        .battery-level {
+          display: flex;
+          align-items: center;
+          margin-bottom: 15px;
+
+          .level-text {
+            font-size: 24px;
+            font-weight: bold;
+            margin-left: 10px;
+            color: #333;
+          }
+        }
+
+        .charging-status {
+          font-size: 16px;
+          color: #666;
+        }
+      }
+    }
+  }
+}

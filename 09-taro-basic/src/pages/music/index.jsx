@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { View, Image, Text } from "@tarojs/components";
 import { AtList, AtListItem, AtIcon, AtSlider } from "taro-ui";
 import Taro from "@tarojs/taro";
